@@ -12,6 +12,6 @@ Ak's Script hub is compatible with the following:
 * Scriptware Windows
 * Krnl
 * Fluxus (?)
-Others are UNKNOWN
+* Others are UNKNOWN
 
 
