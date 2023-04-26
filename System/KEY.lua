@@ -14,10 +14,19 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddTextbox({
-	Name = "Key",
+	Name = "Enter Key",
 	Default = "123",
 	TextDisappear = true,
 	Callback = function(Value)
 		_g.Keyimpot - Value
 	end	  
+})
+
+Tab:AddButton({
+	Name = "Check Key",
+	Callback = function()
+      		print("button pressed")
+			if _g.Keyimpot == _g.Key then
+				print "CorrectKey"
+  	end    
 })
